@@ -1,0 +1,11 @@
+{
+  "name": "author-book",
+  "version": "1.0.0",
+  "description": "project to learn handling relations in graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
