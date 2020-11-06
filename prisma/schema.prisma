@@ -10,12 +10,13 @@ datasource db {
 model Author {
   id   Int    @id @default(autoincrement())
   name String
-  book Book[]
+  books Book[]
 }
 
 model Book {
   id     Int    @id @default(autoincrement())
   title  String
   genre  String
-  author Author @relation(fields: [id], references: [id])
+  authorId Int
+  author Author @relation(fields: [authorId], references: [id])
 }
